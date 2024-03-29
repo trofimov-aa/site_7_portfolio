@@ -15,6 +15,7 @@
     }
     .shopsets img {
         position: static;
+        margin-bottom: 0px;
     }
     .shop-content {
         position: static;
