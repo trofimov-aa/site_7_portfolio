@@ -1,0 +1,96 @@
+@media screen and (max-width: 1024px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-img {
+        width: 120px;
+        height: 50px;
+        order: -1;
+    }
+    .account {
+        margin: 0;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .shopsets img {
+        position: static;
+    }
+    .shop-content {
+        position: static;
+        margin-top: -5px;
+    }
+    .meet {
+        margin-top: 50px;
+    }
+    .meetdae {
+        margin-bottom: 0px;
+    }
+    .meetdae img {
+        position: sticky;
+        display: block;
+        margin: 0 auto;
+    }
+    .meetdae-content {
+        position: sticky;
+        left: 0;
+        margin: 0 auto;
+        max-width: 632px;
+        padding: 32px 20px 20px;
+    }
+    .meetdae-content h3 {
+        margin: 15px 0 21px;
+    }
+    .footer h6 {
+        margin-top: 30px;
+    }
+    .footer {
+        padding: 24px 0;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .shop-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px 10px;
+    }
+    .shop-content h5 {
+        margin-bottom: 20px;
+    }
+    .footer__flex {
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .menu {
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu li {
+        margin-bottom: 10px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .meetdae-content h3 {
+        font-size: 16px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    .shop-content h5 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .header__content {
+        padding: 40px 0 40px 0px;
+    }
+}
